@@ -1,4 +1,4 @@
-from project import exchange_rate, convert, get_currencies 
+from currency import exchange_rate, convert, get_currencies 
 
 def main():
 
@@ -25,4 +25,5 @@ def test_convert():
 
 if __name__ == "__main__":
     main()
+
 
